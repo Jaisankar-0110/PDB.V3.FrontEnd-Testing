@@ -1,0 +1,27 @@
+.form-control-file {
+
+    border: 1px solid var(--border);
+    border-radius: 4px !important;
+    width: 100% !important;
+    color: var(--secondary) !important;
+    height: 44px !important;
+    cursor: pointer !important;
+
+
+    .upload-icon {
+        border-radius: 0px 4px 4px 0px !important;
+        padding: 10px 15px;
+    }
+
+    .upload-img {
+        width: 27px;
+    }
+
+    .file-name {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+
+    }
+
+}

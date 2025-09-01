@@ -1,0 +1,45 @@
+.btn {
+    border: none !important;
+    border-radius: 5px !important;
+    font-size: 14px !important;
+    height: 40px !important;
+  }
+
+.btn-primary {
+    background: var(--primary) !important;
+    color: var(--light) !important;
+}
+
+.btn-primary:hover {
+    background: var(--primary-hover) !important;
+}
+
+.btn-tertiary {
+    background: var(--tertiary) !important;
+    color: var(--light) !important;
+}
+
+.btn-tertiary:hover {
+    background: var(--quaternary) !important;
+}
+
+.btn-success:hover {
+    background: var(--success) !important;
+}
+.btn-success {
+    background: var(--success) !important;
+    color: var(--light) !important;
+}
+// Outline
+
+  .btn-outline-tertiary {
+    background: var(--light) !important;
+    color: var(--tertiary) !important;
+    border: 1px solid var(--tertiary) !important;
+    
+  }
+
+  .btn-outline-tertiary:hover {
+    background: var(--tertiary) !important;
+    color: var(--light) !important;
+  }

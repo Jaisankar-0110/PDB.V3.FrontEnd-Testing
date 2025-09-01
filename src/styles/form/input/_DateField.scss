@@ -1,0 +1,28 @@
+.form-control-date {
+    label {
+      position: absolute;
+      top: 1%;
+      left: 10px;
+      transform: translateY(-50%);
+      pointer-events: none;
+      background: var(--text-light);
+      z-index: 10;
+      background: var(--light);
+      color: var(--primary);
+    }
+  
+    .input-date {
+      border: 1px solid var(--border);
+      border-radius: 4px !important;
+      display: block !important;
+      width: 100%;
+      color: var(--secondary) !important;
+      padding: 10px;
+    }
+  
+    .input-date:focus {
+      outline: none !important;
+      border: 1px solid var(--primary) !important;
+    }
+  
+  }
